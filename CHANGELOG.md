@@ -9,9 +9,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [v0.1.0] - 2020-09-30
 ### Added
 - Upgraded hadoop-aws and aws-sdk-bundle jars
-- Copy entrypoint.sh to /opt/
 - Use base docker image as gcr.io/spark-operator/spark:v3.0.0-hadoop3
-- Refactored entrypoint.sh script
+- removed entrypoint.sh script
 
 [Unreleased]: https://github.com/PaytmLabs/spark-history-server-docker/compare/v0.1.0...HEAD
 [v0.1.0]: https://github.com/PaytmLabs/spark-history-server-docker/releases/tag/v0.1.0
